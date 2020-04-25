@@ -1,0 +1,7 @@
+D:\C#\Lab11\Task2\bin\Debug\Task2.exe.config
+D:\C#\Lab11\Task2\bin\Debug\Task2.exe
+D:\C#\Lab11\Task2\bin\Debug\Task2.pdb
+D:\C#\Lab11\Task2\obj\Debug\Task2.csprojAssemblyReference.cache
+D:\C#\Lab11\Task2\obj\Debug\Task2.exe
+D:\C#\Lab11\Task2\obj\Debug\Task2.pdb
+D:\C#\Lab11\Task2\obj\Debug\Task2.csproj.CopyComplete

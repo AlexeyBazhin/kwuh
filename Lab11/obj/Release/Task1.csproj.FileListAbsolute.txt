@@ -1,0 +1,9 @@
+D:\C#\Lab11\Lab11\bin\Release\Task1.exe.config
+D:\C#\Lab11\Lab11\bin\Release\Task1.exe
+D:\C#\Lab11\Lab11\bin\Release\Task1.pdb
+D:\C#\Lab11\Lab11\bin\Release\ClassLibrary.dll
+D:\C#\Lab11\Lab11\bin\Release\ClassLibrary.pdb
+D:\C#\Lab11\Lab11\obj\Release\Task1.csprojAssemblyReference.cache
+D:\C#\Lab11\Lab11\obj\Release\Task1.csproj.CopyComplete
+D:\C#\Lab11\Lab11\obj\Release\Task1.exe
+D:\C#\Lab11\Lab11\obj\Release\Task1.pdb

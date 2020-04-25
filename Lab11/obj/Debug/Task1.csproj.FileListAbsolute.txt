@@ -1,0 +1,7 @@
+D:\C#\Lab11\Lab11\obj\Debug\Task1.csprojAssemblyReference.cache
+D:\C#\Lab11\Lab11\obj\Debug\Task1.csproj.CopyComplete
+D:\C#\Lab11\Lab11\bin\Debug\Task1.exe.config
+D:\C#\Lab11\Lab11\bin\Debug\Task1.exe
+D:\C#\Lab11\Lab11\bin\Debug\Task1.pdb
+D:\C#\Lab11\Lab11\obj\Debug\Task1.exe
+D:\C#\Lab11\Lab11\obj\Debug\Task1.pdb
