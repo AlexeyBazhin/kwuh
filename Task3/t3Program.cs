@@ -39,8 +39,20 @@ namespace Task3
 
             Console.Write("Время поиска первого объекта в коллекции SortedDictionary<TKey, TValue>: ");
             stopWatch.Restart();
-            if (collection.dictPeople.ContainsKey(collection.objFirst.BasePerson) && 
-                collection.dictPeople.ContainsValue(collection.objFirst))
+            if (collection.dictPeople.ContainsKey(collection.objFirst.BasePerson))
+            {
+                stopWatch.Stop();
+                Console.WriteLine("Найден; " + stopWatch.ElapsedTicks);
+            }
+            else
+            {
+                stopWatch.Stop();
+                Console.WriteLine("НЕ найден; " + stopWatch.ElapsedTicks);
+            }
+
+            Console.Write("TValue Время поиска первого объекта в коллекции SortedDictionary<TKey, TValue>: ");
+            stopWatch.Restart();
+            if (collection.dictPeople.ContainsValue(collection.objFirst))
             {
                 stopWatch.Stop();
                 Console.WriteLine("Найден; " + stopWatch.ElapsedTicks);
@@ -67,8 +79,21 @@ namespace Task3
 
             Console.Write("Время поиска среднего объекта в коллекции SortedDictionary<TKey, TValue>: ");
             stopWatch.Restart();
-            if (collection.dictPeople.ContainsKey(collection.objMiddle.BasePerson) &&
-                collection.dictPeople.ContainsValue(collection.objMiddle))
+            if (collection.dictPeople.ContainsKey(collection.objMiddle.BasePerson) )
+            {
+                stopWatch.Stop();
+                Console.WriteLine("Найден; " + stopWatch.ElapsedTicks);
+            }
+            else
+            {
+                stopWatch.Stop();
+                Console.WriteLine("НЕ найден; " + stopWatch.ElapsedTicks);
+            }
+            collection.dictPeople.ContainsValue(collection.objMiddle);
+
+            Console.Write("TValue Время поиска среднего объекта в коллекции SortedDictionary<TKey, TValue>: ");
+            stopWatch.Restart();
+            if (collection.dictPeople.ContainsValue(collection.objMiddle))
             {
                 stopWatch.Stop();
                 Console.WriteLine("Найден; " + stopWatch.ElapsedTicks);
@@ -95,8 +120,20 @@ namespace Task3
 
             Console.Write("Время поиска последнего объекта в коллекции SortedDictionary<TKey, TValue>: ");
             stopWatch.Restart();
-            if (collection.dictPeople.ContainsKey(collection.objLast.BasePerson) &&
-                collection.dictPeople.ContainsValue(collection.objLast))
+            if (collection.dictPeople.ContainsKey(collection.objLast.BasePerson))
+            {
+                stopWatch.Stop();
+                Console.WriteLine("Найден; " + stopWatch.ElapsedTicks);
+            }
+            else
+            {
+                stopWatch.Stop();
+                Console.WriteLine("НЕ найден; " + stopWatch.ElapsedTicks);
+            }
+
+            Console.Write("TValue Время поиска последнего объекта в коллекции SortedDictionary<TKey, TValue>: ");
+            stopWatch.Restart();
+            if (collection.dictPeople.ContainsValue(collection.objLast))
             {
                 stopWatch.Stop();
                 Console.WriteLine("Найден; " + stopWatch.ElapsedTicks);
@@ -131,8 +168,7 @@ namespace Task3
 
             Console.Write("Время поиска первого объекта в коллекции SortedDictionary<string, TValue>: ");
             stopWatch.Restart();
-            if (collection.dictString.ContainsKey(collection.strFirst.BasePerson.ToString()) &&
-                collection.dictString.ContainsValue(collection.strFirst))
+            if (collection.dictString.ContainsKey(collection.strFirst.BasePerson.ToString()))
             {
                 stopWatch.Stop();
                 Console.WriteLine("Найден; " + stopWatch.ElapsedTicks);
@@ -159,8 +195,7 @@ namespace Task3
 
             Console.Write("Время поиска среднего объекта в коллекции SortedDictionary<string, TValue>: ");
             stopWatch.Restart();
-            if (collection.dictString.ContainsKey(collection.strMiddle.BasePerson.ToString()) &&
-                collection.dictString.ContainsValue(collection.strMiddle))
+            if (collection.dictString.ContainsKey(collection.strMiddle.BasePerson.ToString()))
             {
                 stopWatch.Stop();
                 Console.WriteLine("Найден; " + stopWatch.ElapsedTicks);
@@ -187,8 +222,7 @@ namespace Task3
 
             Console.Write("Время поиска последнего объекта в коллекции SortedDictionary<string, TValue>: ");
             stopWatch.Restart();
-            if (collection.dictString.ContainsKey(collection.strLast.BasePerson.ToString()) &&
-                collection.dictString.ContainsValue(collection.strLast))
+            if (collection.dictString.ContainsKey(collection.strLast.BasePerson.ToString()))
             {
                 stopWatch.Stop();
                 Console.WriteLine("Найден; " + stopWatch.ElapsedTicks);
@@ -225,8 +259,20 @@ namespace Task3
 
             Console.Write("Время поиска первого объекта в коллекции SortedDictionary<TKey, TValue>: ");
             stopWatch.Restart();
-            if (collection.dictPeople.ContainsKey(nonexistent.BasePerson) &&
-                collection.dictPeople.ContainsValue(nonexistent))
+            if (collection.dictPeople.ContainsKey(nonexistent.BasePerson))
+            {
+                stopWatch.Stop();
+                Console.WriteLine("Найден; " + stopWatch.ElapsedTicks);
+            }
+            else
+            {
+                stopWatch.Stop();
+                Console.WriteLine("НЕ найден; " + stopWatch.ElapsedTicks);
+            }
+            
+            Console.Write("TValue Время поиска первого объекта в коллекции SortedDictionary<TKey, TValue>: ");
+            stopWatch.Restart();
+            if (collection.dictPeople.ContainsValue(nonexistent))
             {
                 stopWatch.Stop();
                 Console.WriteLine("Найден; " + stopWatch.ElapsedTicks);
@@ -253,8 +299,7 @@ namespace Task3
 
             Console.Write("Время поиска несуществующего объекта в коллекции SortedDictionary<string, TValue>: ");
             stopWatch.Restart();
-            if (collection.dictString.ContainsKey(nonexistent.BasePerson.ToString()) &&
-                collection.dictString.ContainsValue(nonexistent))
+            if (collection.dictString.ContainsKey(nonexistent.BasePerson.ToString()))
             {
                 stopWatch.Stop();
                 Console.WriteLine("Найден; " + stopWatch.ElapsedTicks);

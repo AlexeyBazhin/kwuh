@@ -107,6 +107,7 @@ namespace Task1
                             Console.WriteLine("\nИзначальная коллекция:\n");
                             PrintCollection(list);
                             Console.WriteLine("\nПроведено полное клонирование.\n");
+                            PrintCollection(listClone);
                             break;
                         }
                     case 7://сортировка по имени через IComparable
